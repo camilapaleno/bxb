@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+
+<head>
+    
+    <title>BXB Beanie Ball - A functional ball that turns into a wearable beanie!</title>
+    <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e1ca0213f0.js" crossorigin="anonymous"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-AU-compatible" content="ie=edge">
+
+    <script src="./resources/js/animation.js"></script>
+    <script src="./resources/js/lottie.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./resources/img/ball.ico">
+
+    <meta property="og:image" content="https://www.bxbbeanieball.com/#"/>
+    <meta name="description" content="A functional ball that turns into a wearable beanie!">
+    <meta property="og:title" content="BXB Beanie Ball"/>
+    <meta property="og:url" content="https://www.bxbbeanieball.com" />
+    <meta property="og:description" content="A functional ball that turns into a wearable beanie!">
+    
+</head>
+
+<nav>
+    <div id="logo" ><a href="./index.html"><img class="zoom" src="./resources/img/logo.png"></a></div>
+    <div id="bar">
+        <ol>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./index.html#shop">Shop</a></li>
+            <li><a href="./index.html#about">Our Story</a></li>
+            <li><a href="./index.html#contact-us">Contact Us</a></li>
+        </ol>
+    </div>
+</nav>
+
+<body>
+<div id="wrapper">
+    
+    <div id="header"><div id="ball" class="hideme"><img src="./resources/img/ball.png"></div>
+      <div class="container">
+        <div class="video"><iframe width="520" height="280"
+            src="https://www.youtube.com/embed/4I9V2zR1Vs4">
+            </iframe></div>
+        <div class="text"><div id="container">
+            <h1><span id="bb">BEANIE BALL</span> is a functional ball that turns into a wearable beanie!</h1>
+            <br><p><i class="fas fa-angle-double-left hideme"></i> Check out the magic!</p>
+        </div></div>
+      </div>
+
+    </div> 
+
+    <div id="shawne">
+        
+        <div id="container" class="shawne-pose">
+            <div><img src="./resources/img/shawne-pose.png"></div>
+        </div>
+        <div id="container" class="shawne-text">
+            <div class="text">
+                <h1>A Beanie Ball can be thrown <span id="bb">over 30 yards!</span></h1><br>
+                <img src="./resources/img/shawne-signature.png" style="width: 100px;">
+                <br><br><p style="font-style: italic;">Shawne Merriman #56</p>
+            </div>
+        </div>
+        <div id="container" class="shawne-throw">
+            <div><img src="./resources/img/shawne-throw.png"></div>
+        </div>
+    </div>
+
+    <div id="shop">
+        <h1><span id="bb">SHOP NOW</span></h1><br>
+        <div id="container">
+            
+            
+            <div id="box">
+                
+                <img src="./resources/img/image-2.jpeg" class="pro-image">
+                <br><br><p>Pro Football Beanie</p>
+                <p>$16.99</p>
+                <div id='product-component-1617069241665'></div>
+                <script type="text/javascript">
+                /*<![CDATA[*/
+                (function () {
+                  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+                  if (window.ShopifyBuy) {
+                    if (window.ShopifyBuy.UI) {
+                      ShopifyBuyInit();
+                    } else {
+                      loadScript();
+                    }
+                  } else {
+                    loadScript();
+                  }
+                  function loadScript() {
+                    var script = document.createElement('script');
+                    script.async = true;
+                    script.src = scriptURL;
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+                    script.onload = ShopifyBuyInit;
+                  }
+                  function ShopifyBuyInit() {
+                    var client = ShopifyBuy.buildClient({
+                      domain: 'beanie-ball.myshopify.com',
+                      storefrontAccessToken: 'd1c1862d85820924ad5fe5b5aa851010',
+                    });
+                    ShopifyBuy.UI.onReady(client).then(function (ui) {
+                      ui.createComponent('product', {
+                        id: '5502646976680',
+                        node: document.getElementById('product-component-1617069241665'),
+                        moneyFormat: '%24%7B%7Bamount%7D%7D',
+                        options: {
+                  "product": {
+                    "styles": {
+                      "product": {
+                        "@media (min-width: 601px)": {
+                          "max-width": "calc(25% - 20px)",
+                          "margin-left": "20px",
+                          "margin-bottom": "50px"
+                        }
+                      },
+                      "button": {
+                        "font-family": "Raleway, sans-serif",
+                        "font-size": "14px",
+                        "padding-top": "15px",
+                        "padding-bottom": "15px",
+                        ":hover": {
+                          "background-color": "#d73620"
+                        },
+                        "background-color": "#ef3c24",
+                        ":focus": {
+                          "background-color": "#d73620"
+                        },
+                        "border-radius": "0px"
+                      },
+                      "quantityInput": {
+                        "font-size": "14px",
+                        "padding-top": "15px",
+                        "padding-bottom": "15px"
+                      }
+                    },
+                    "buttonDestination": "checkout",
+                    "contents": {
+                      "img": false,
+                      "title": false,
+                      "price": false
+                    },
+                    "text": {
+                      "button": "Buy now"
+                    },
+                    "googleFonts": [
+                      "Raleway"
+                    ]
+                  },
+                  "productSet": {
+                    "styles": {
+                      "products": {
+                        "@media (min-width: 601px)": {
+                          "margin-left": "-20px"
+                        }
+                      }
+                    }
+                  },
+                  "modalProduct": {
+                    "contents": {
+                      "img": false,
+                      "imgWithCarousel": true,
+                      "button": false,
+                      "buttonWithQuantity": true
+                    },
+                    "styles": {
+                      "product": {
+                        "@media (min-width: 601px)": {
+                          "max-width": "100%",
+                          "margin-left": "0px",
+                          "margin-bottom": "0px"
+                        }
+                      },
+                      "button": {
+                        "font-family": "Raleway, sans-serif",
+                        "font-size": "14px",
+                        "padding-top": "15px",
+                        "padding-bottom": "15px",
+                        ":hover": {
+                          "background-color": "#d73620"
+                        },
+                        "background-color": "#ef3c24",
+                        ":focus": {
+                          "background-color": "#d73620"
+                        },
+                        "border-radius": "0px"
+                      },
+                      "quantityInput": {
+                        "font-size": "14px",
+                        "padding-top": "15px",
+                        "padding-bottom": "15px"
+                      }
+                    },
+                    "googleFonts": [
+                      "Raleway"
+                    ],
+                    "text": {
+                      "button": "Add to cart"
+                    }
+                  },
+                  "option": {},
+                  "cart": {
+                    "styles": {
+                      "button": {
+                        "font-family": "Raleway, sans-serif",
+                        "font-size": "14px",
+                        "padding-top": "15px",
+                        "padding-bottom": "15px",
+                        ":hover": {
+                          "background-color": "#d73620"
+                        },
+                        "background-color": "#ef3c24",
+                        ":focus": {
+                          "background-color": "#d73620"
+                        },
+                        "border-radius": "0px"
+                      }
+                    },
+                    "text": {
+                      "total": "Subtotal",
+                      "button": "Checkout"
+                    },
+                    "googleFonts": [
+                      "Raleway"
+                    ]
+                  },
+                  "toggle": {
+                    "styles": {
+                      "toggle": {
+                        "font-family": "Raleway, sans-serif",
+                        "background-color": "#ef3c24",
+                        ":hover": {
+                          "background-color": "#d73620"
+                        },
+                        ":focus": {
+                          "background-color": "#d73620"
+                        }
+                      },
+                      "count": {
+                        "font-size": "14px"
+                      }
+                    },
+                    "googleFonts": [
+                      "Raleway"
+                    ]
+                  }
+                },
+                      });
+                    });
+                  }
+                })();
+                /*]]>*/
+                </script>
+                
+            </div>
+            <div id="box">
+                <img src="./resources/img/sold-1.png" class="pro-image">
+                <br><br><p>Go Long T-Shirt</p>
+                <p>$12.95</p>
+                <div id='product-component-1617071789311'></div>
+                <script type="text/javascript">
+                /*<![CDATA[*/
+                (function () {
+                var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+                if (window.ShopifyBuy) {
+                    if (window.ShopifyBuy.UI) {
+                    ShopifyBuyInit();
+                    } else {
+                    loadScript();
+                    }
+                } else {
+                    loadScript();
+                }
+                function loadScript() {
+                    var script = document.createElement('script');
+                    script.async = true;
+                    script.src = scriptURL;
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+                    script.onload = ShopifyBuyInit;
+                }
+                function ShopifyBuyInit() {
+                    var client = ShopifyBuy.buildClient({
+                    domain: 'beanie-ball.myshopify.com',
+                    storefrontAccessToken: 'd1c1862d85820924ad5fe5b5aa851010',
+                    });
+                    ShopifyBuy.UI.onReady(client).then(function (ui) {
+                    ui.createComponent('product', {
+                        id: '6615765909685',
+                        node: document.getElementById('product-component-1617071789311'),
+                        moneyFormat: '%24%7B%7Bamount%7D%7D',
+                        options: {
+                "product": {
+                    "styles": {
+                    "product": {
+                        "@media (min-width: 601px)": {
+                        "max-width": "calc(25% - 20px)",
+                        "margin-left": "20px",
+                        "margin-bottom": "50px"
+                        }
+                    },
+                    "button": {
+                        "font-family": "Raleway, sans-serif",
+                        "font-size": "14px",
+                        "padding-top": "15px",
+                        "padding-bottom": "15px",
+                        ":hover": {
+                        "background-color": "#d73620"
+                        },
+                        "background-color": "#ef3c24",
+                        ":focus": {
+                        "background-color": "#d73620"
+                        },
+                        "border-radius": "0px"
+                    },
+                    "quantityInput": {
+                        "font-size": "14px",
+                        "padding-top": "15px",
+                        "padding-bottom": "15px"
+                    }
+                    },
+                    "buttonDestination": "checkout",
+                    "contents": {
+                    "img": false,
+                    "title": false,
+                    "price": false
+                    },
+                    "text": {
+                    "button": "Buy now"
+                    },
+                    "googleFonts": [
+                    "Raleway"
+                    ]
+                },
+                "productSet": {
+                    "styles": {
+                    "products": {
+                        "@media (min-width: 601px)": {
+                        "margin-left": "-20px"
+                        }
+                    }
+                    }
+                },
+                "modalProduct": {
+                    "contents": {
+                    "img": false,
+                    "imgWithCarousel": true,
+                    "button": false,
+                    "buttonWithQuantity": true
+                    },
+                    "styles": {
+                    "product": {
+                        "@media (min-width: 601px)": {
+                        "max-width": "100%",
+                        "margin-left": "0px",
+                        "margin-bottom": "0px"
+                        }
+                    },
+                    "button": {
+                        "font-family": "Raleway, sans-serif",
+                        "font-size": "14px",
+                        "padding-top": "15px",
+                        "padding-bottom": "15px",
+                        ":hover": {
+                        "background-color": "#d73620"
+                        },
+                        "background-color": "#ef3c24",
+                        ":focus": {
+                        "background-color": "#d73620"
+                        },
+                        "border-radius": "0px"
+                    },
+                    "quantityInput": {
+                        "font-size": "14px",
+                        "padding-top": "15px",
+                        "padding-bottom": "15px"
+                    }
+                    },
+                    "googleFonts": [
+                    "Raleway"
+                    ],
+                    "text": {
+                    "button": "Add to cart"
+                    }
+                },
+                "option": {},
+                "cart": {
+                    "styles": {
+                    "button": {
+                        "font-family": "Raleway, sans-serif",
+                        "font-size": "14px",
+                        "padding-top": "15px",
+                        "padding-bottom": "15px",
+                        ":hover": {
+                        "background-color": "#d73620"
+                        },
+                        "background-color": "#ef3c24",
+                        ":focus": {
+                        "background-color": "#d73620"
+                        },
+                        "border-radius": "0px"
+                    }
+                    },
+                    "text": {
+                    "total": "Subtotal",
+                    "button": "Checkout"
+                    },
+                    "googleFonts": [
+                    "Raleway"
+                    ]
+                },
+                "toggle": {
+                    "styles": {
+                    "toggle": {
+                        "font-family": "Raleway, sans-serif",
+                        "background-color": "#ef3c24",
+                        ":hover": {
+                        "background-color": "#d73620"
+                        },
+                        ":focus": {
+                        "background-color": "#d73620"
+                        }
+                    },
+                    "count": {
+                        "font-size": "14px"
+                    }
+                    },
+                    "googleFonts": [
+                    "Raleway"
+                    ]
+                }
+                },
+                    });
+                    });
+                }
+                })();
+                /*]]>*/
+                </script>
+            </div>
+            <div id="box">
+                <img src="./resources/img/sold-2.png" class="pro-image">
+                <br><br><p>Logo T-Shirt</p>
+                <p>$12.95</p>
+                <div id='product-component-1617071882104'></div>
+                <script type="text/javascript">
+                /*<![CDATA[*/
+                (function () {
+                var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+                if (window.ShopifyBuy) {
+                    if (window.ShopifyBuy.UI) {
+                    ShopifyBuyInit();
+                    } else {
+                    loadScript();
+                    }
+                } else {
+                    loadScript();
+                }
+                function loadScript() {
+                    var script = document.createElement('script');
+                    script.async = true;
+                    script.src = scriptURL;
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+                    script.onload = ShopifyBuyInit;
+                }
+                function ShopifyBuyInit() {
+                    var client = ShopifyBuy.buildClient({
+                    domain: 'beanie-ball.myshopify.com',
+                    storefrontAccessToken: 'd1c1862d85820924ad5fe5b5aa851010',
+                    });
+                    ShopifyBuy.UI.onReady(client).then(function (ui) {
+                    ui.createComponent('product', {
+                        id: '6615767122101',
+                        node: document.getElementById('product-component-1617071882104'),
+                        moneyFormat: '%24%7B%7Bamount%7D%7D',
+                        options: {
+                "product": {
+                    "styles": {
+                    "product": {
+                        "@media (min-width: 601px)": {
+                        "max-width": "calc(25% - 20px)",
+                        "margin-left": "20px",
+                        "margin-bottom": "50px"
+                        }
+                    },
+                    "button": {
+                        "font-family": "Raleway, sans-serif",
+                        "font-size": "14px",
+                        "padding-top": "15px",
+                        "padding-bottom": "15px",
+                        ":hover": {
+                        "background-color": "#d73620"
+                        },
+                        "background-color": "#ef3c24",
+                        ":focus": {
+                        "background-color": "#d73620"
+                        },
+                        "border-radius": "0px"
+                    },
+                    "quantityInput": {
+                        "font-size": "14px",
+                        "padding-top": "15px",
+                        "padding-bottom": "15px"
+                    }
+                    },
+                    "buttonDestination": "checkout",
+                    "contents": {
+                    "img": false,
+                    "title": false,
+                    "price": false
+                    },
+                    "text": {
+                    "button": "Buy now"
+                    },
+                    "googleFonts": [
+                    "Raleway"
+                    ]
+                },
+                "productSet": {
+                    "styles": {
+                    "products": {
+                        "@media (min-width: 601px)": {
+                        "margin-left": "-20px"
+                        }
+                    }
+                    }
+                },
+                "modalProduct": {
+                    "contents": {
+                    "img": false,
+                    "imgWithCarousel": true,
+                    "button": false,
+                    "buttonWithQuantity": true
+                    },
+                    "styles": {
+                    "product": {
+                        "@media (min-width: 601px)": {
+                        "max-width": "100%",
+                        "margin-left": "0px",
+                        "margin-bottom": "0px"
+                        }
+                    },
+                    "button": {
+                        "font-family": "Raleway, sans-serif",
+                        "font-size": "14px",
+                        "padding-top": "15px",
+                        "padding-bottom": "15px",
+                        ":hover": {
+                        "background-color": "#d73620"
+                        },
+                        "background-color": "#ef3c24",
+                        ":focus": {
+                        "background-color": "#d73620"
+                        },
+                        "border-radius": "0px"
+                    },
+                    "quantityInput": {
+                        "font-size": "14px",
+                        "padding-top": "15px",
+                        "padding-bottom": "15px"
+                    }
+                    },
+                    "googleFonts": [
+                    "Raleway"
+                    ],
+                    "text": {
+                    "button": "Add to cart"
+                    }
+                },
+                "option": {},
+                "cart": {
+                    "styles": {
+                    "button": {
+                        "font-family": "Raleway, sans-serif",
+                        "font-size": "14px",
+                        "padding-top": "15px",
+                        "padding-bottom": "15px",
+                        ":hover": {
+                        "background-color": "#d73620"
+                        },
+                        "background-color": "#ef3c24",
+                        ":focus": {
+                        "background-color": "#d73620"
+                        },
+                        "border-radius": "0px"
+                    }
+                    },
+                    "text": {
+                    "total": "Subtotal",
+                    "button": "Checkout"
+                    },
+                    "googleFonts": [
+                    "Raleway"
+                    ]
+                },
+                "toggle": {
+                    "styles": {
+                    "toggle": {
+                        "font-family": "Raleway, sans-serif",
+                        "background-color": "#ef3c24",
+                        ":hover": {
+                        "background-color": "#d73620"
+                        },
+                        ":focus": {
+                        "background-color": "#d73620"
+                        }
+                    },
+                    "count": {
+                        "font-size": "14px"
+                    }
+                    },
+                    "googleFonts": [
+                    "Raleway"
+                    ]
+                }
+                },
+                    });
+                    });
+                }
+                })();
+                /*]]>*/
+                </script>
+            </div>
+            <div id="box">
+                <img src="./resources/img/other.png" class="pro-image">
+                <br><br><p>More Sports and Colors Coming Soon!</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="gallery"> 
+      <ul>
+        <li><img src="./resources/img/gallery/gallery-15.jpeg"></li>
+        <li><img src="./resources/img/gallery/gallery-1.gif"></li>
+        <li><img src="./resources/img/gallery/gallery-2.jpeg"></li>
+        
+        <li><img class="hideme" src="./resources/img/gallery/gallery-4.jpeg"></li>
+        <li><img src="./resources/img/gallery/gallery-14.jpeg"></li>
+        <li><img src="./resources/img/gallery/gallery-5.jpeg"></li>
+        
+        
+        <li><img class="hideme" src="./resources/img/gallery/gallery-7.jpeg"></li>
+        <li><img class="hideme" src="./resources/img/gallery/gallery-8.jpeg"></li>
+        <li><img class="hideme" src="./resources/img/gallery/gallery-2.gif"></li>
+        <li><img class="hideme" src="./resources/img/gallery/gallery-9.jpeg"></li>
+
+        <li><img class="hideme" src="./resources/img/gallery/gallery-13.jpeg"></li>
+        <li><img class="hideme" src="./resources/img/gallery/gallery-12.jpeg"></li>
+        <li></li>
+        
+      </ul>
+    </div>
+
+    <div id="about">
+      <div>        
+        <h1 id="bb">Our Story</h1><br>
+        <p>It was December 2014, on an early sunny morning in Los Angeles, my teenage daughter and I ventured off to roam the local mall as we did frequently during this time.
+            <br><br>
+            The mall was open, but all of the stores inside were closed until 10 AM, except for a Coffee Bean where we would have our breakfast.
+            <br><br>
+            The mall was like a big indoor playground with nobody in it . Sitting at the Coffee Bean, we started talking about how fun it would be to have a small football. We could run pass patterns across the mall and over the open areas three floors below.
+            <br><br>
+            I was wearing a beanie, and she had a hair tie, so I took off my beanie, bundled it up, and we used her hair tie to fashion it into a ball. After throwing it around for a while, we were sitting there talking and as we looked at the top of the beanie, the crisscross pattern of the stitching reminded us of the end of a football. That was the day BxB BeanieBall was born.
+            <br><br>
+            We immediately ran home and stapled together some material and created the first BxB football. Dad and daughter formed the company in 2015. Fast forward six years: we have added several key partners, we now have our patent, trademark, and a production model available for sale.
+            <br><br>
+            <span style="font-weight: 600;">We are currently raising money for marketing, research and development, and to accelerate our sales. As our journey continues, we will be creating more products for kids of every age to have fun.</span></p>
+        </div>
+    </div>
+
+    <div id="contact-us">
+        <div class="container">
+            <h1 id="bb">Contact Us</h1><br>
+                <form method="post" action="send_mail.php">
+                  <p>
+                  <label>Name
+                  <input type="text" id="fname" name="first_name" required>
+                  </label> 
+                  </p>
+                  <p>
+                  <label>Email 
+                  <input type="email" id="email" name="email_address">
+                  </label>
+                  </p>
+                  <p>
+                  <label>Message
+                  <textarea name="comments" id="message" maxlength="500"></textarea>
+                  </label>
+                  </p>
+                  <p><button id="submit">Submit</button></p>
+                  </form>
+        </div>
+    </div>
+
+    <div style="height: 200px;">
+
+    </div>
+
+</body>
+
+<footer>
+    <div id="contact">
+        <ul>
+            <li style="text-transform: uppercase; letter-spacing: 1px;">LINKS</li>
+            <li><hr></li>
+            <li><a href="./terms.html">Terms of Service</a></li>
+            <li><a href="./privacy.html">Privacy Policy</a></li>
+            <li><a href="./refund.html">Refund Policy</a></li>
+        </ul>
+    </div>
+    <div id="socials">
+        <ul>
+            <li style="text-transform: uppercase; letter-spacing: 1px;">Socials</li>
+            <li><hr></li>
+            <li>
+                <a href="https://www.instagram.com/beanieballbxb/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCZzwUcZqUbtF5xiVPSIKm5A"><i class="fab fa-youtube"></i></a>
+        </ul>
+    </div>
+    <div id="bar">
+        <p><i class="fas fa-copyright"></i> BXB Beanie Ball 2021 | <a href="https://www.imcamila.com/">Made by Camila <i class="fas fa-seedling"></i></a> </p>
+    </div>
+</footer>
+
+</html>
