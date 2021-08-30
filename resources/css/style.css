@@ -9,6 +9,11 @@
 a {
     color: unset;
     text-decoration: unset;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: #ca1818;
 }
 
 /*Navigation Bar*/
@@ -34,6 +39,7 @@ a {
 
 .navbar #navbar_socials li {
     padding: 10px;
+    
 }
 
 .navbar #img {
@@ -63,14 +69,18 @@ a {
 .navbar #navbar_container li {
     padding: 15px;
     font-size: 14px;
-    border-bottom: 2px solid #292929;
+    font-weight: 500;
+    border-bottom: 2px solid #1a1a1a;
 }
 
 .navbar #navbar_container li:hover {
-    color: #FFF;
+    
     border-bottom: 2px solid #FFF;
 }
 
+.navbar #navbar_container a {
+    color: #FFF;
+}
  
 
 /*Hero*/
@@ -165,19 +175,71 @@ a {
 }
 
 .blurb_container {
-    color: #d3d3d3;
+    color: #949494;
     padding: 20px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .blurb_container p{
-    padding-bottom: 20px;
+    width: 600px;
+    text-align: left;
+    font-weight: 800;
+    margin-bottom: 20px;
 }
 
+.transition {
+    width: 250px;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.transition i {
+    color: #FFF;
+}
+
+.transition img{   
+width: 120px;
+}
+
+
 @media (max-width: 920px) {
+
     .blurb_container {
-        padding: 40px;
-        text-align: left;
+        flex-wrap: wrap;
+        text-align: center;
+        margin: 20px;
+    }
+
+    .blurb_container div{
+        width: 100%
+    }
+
+    .blurb_container p{
+        text-align: center;
+        width: 100%;
+    }
+
+    .blurb_container #button {
+        margin: 0 auto;
+    }
+
+    .transition {
+        width: 100%;
+        margin: 0 0px;
+    }
+    .transition img{   
+        width: 100%;
+        }
+    .transition #i {
+        text-align: center;
+        width: 40px;
     }
 }
 
