@@ -121,7 +121,21 @@ a {
     z-index: 999;
 }
 
+#hgif {
+    display: none;
+}
+
 @media (max-width: 920px) {
+
+    #hgif {
+        display: block;
+        height: 100%;
+    } 
+    #hvid {
+        display: none;
+    }
+
+
     .hero_container {
         margin: 0px;
         min-height: 400px;
@@ -131,9 +145,11 @@ a {
     .hero_video {
         height: 100%;
     }
-    .hero_video video {
+    .hero_video #hgif img {
         height: 100%;
+        width: 100%;
         object-fit: cover;
+        object-position: 50% 50%;
     }
 
     .hero_title h1 {
